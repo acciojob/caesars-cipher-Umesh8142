@@ -40,6 +40,7 @@ function rot13(encodedStr) {
         }
           decodedArr[i]=lookup[encodedStr[i]];
       }
+	console.log(decodedArr)
   return decodedArr; //return decodedArr
 }
 
